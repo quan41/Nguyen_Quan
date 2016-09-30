@@ -1,4 +1,4 @@
-import java.util.Scanner; //import Statement]
+import java.util.Scanner;
 public class Lab_03
 {
 	public static void main(String[]args)
