@@ -19,8 +19,5 @@ public class Rectangle
 	
 	} 
 
-	public void format(double p)
-	{
-		System.out.printf("\n%10s.....%99999999999.5f", p);
-	}
+	
 }
