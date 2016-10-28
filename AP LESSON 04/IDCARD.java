@@ -34,7 +34,7 @@ public class IDCARD
 
 	public void format(String a, String b)
 	{
-		System.out.printf("*%20s\t%27s*\n", a, b);
+		System.out.printf("*%20s" "%27s*", a, b);
 	}
 	
 	
