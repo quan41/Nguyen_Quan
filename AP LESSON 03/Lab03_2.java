@@ -8,7 +8,8 @@ public class Lab03_2
 		double weight = keyboard.nextInt();
 		System.out.println("How tall are you?");
 		double height = keyboard.nextInt();
-		System.out.println("Your BMI is " + weight / height * height );
+		double BMI = (703*weight)/(height *height);
+		System.out.println("Your BMI is " + BMI );
 	}	
 	
 	
