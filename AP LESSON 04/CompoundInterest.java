@@ -15,7 +15,7 @@ public class CompoundInterest
 		System.out.println("What is the time");
 		double time = kb.nextDouble();
 		kb.nextLine();
-		System.out.println("Whats your number ");
+		System.out.println("How many times does it get compounded yearly? ");
 		double number = kb.nextDouble();
 		kb.nextLine();
 		
@@ -26,8 +26,8 @@ public class CompoundInterest
 
 	public static double payment(double r, double p, double n, double t)
 	{
-		double var = p*Math.pow((1+(r/n)),n*t);
-		return var/(12*t);
+		double var = p * Math.pow((1+(r/n)),n*t);
+		return var/(12 * t);
 	}
 	
 	

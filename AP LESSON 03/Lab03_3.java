@@ -5,10 +5,10 @@ public class Lab03_3
 	{
 		Scanner keyboard = new Scanner(System.in);
 		System.out.println("How many apples do you have? ");
-		double a = keyboard.nextInt();
-		System.out.println("How many apples do you want? ");
-		double b = keyboard.nextInt();
-		System.out.println("You have " + (a - b) + " extra apples"  );
+		int a = keyboard.nextInt();
+		System.out.println("How many oranges do you have? ");
+		int b = keyboard.nextInt();
+		System.out.println("You have " + (a + b) + " fruit");
 	}	
 	
 	

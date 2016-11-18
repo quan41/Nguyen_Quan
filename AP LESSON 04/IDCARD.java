@@ -8,6 +8,7 @@ public class IDCARD
 		
 		System.out.println("Please enter your first name: ");
 		String name1 = kb.nextLine();
+		
 		System.out.println("Please enter your last name: ");
 		String name2 = kb.nextLine();
 		
@@ -24,17 +25,17 @@ public class IDCARD
 		String subject = kb.nextLine();
 		
 		System.out.println("ID CARD");
-		System.out.println("***************************");
+		System.out.println("*********************************");
 		card.format(school, year);
 		card.format(name1, name2);
 		card.format(title, subject);
-		System.out.println("***************************");
+		System.out.println("*********************************");
 		
 	} 
 
 	public void format(String a, String b)
 	{
-		System.out.printf("*%20s" "%27s*", a, b);
+		System.out.printf("*%15s %15s*\n", a, b);
 	}
 	
 	
